@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
 }
+@media only screen and (max-width:688px) {
+   .container{
+    width: 100%;
+   } 
+   .nav-link{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+   }
+}
 a{
     text-decoration: none;
 }
@@ -132,4 +142,87 @@ padding: 0 !important;
 .img{
     width: 430px;
     margin-top: 15px;
+}
+footer{
+    height: 100%;
+}
+p{
+    font-size: 16px;
+    color: #CFCFCF;
+    font-weight: 400px;
+font-size: 16px;
+margin: 0 0 15px 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+input:focus{
+    outline: none;
+}
+a:hover,
+a:focus{
+    text-decoration: none;
+    outline: none;
+    color: #FFFFFF;
+}
+.footer{
+    background: #111111;
+    padding-top: 70px;
+}
+.footer-about{
+    margin-bottom: 30px;
+}
+.footer-about .footer-logo{
+    margin-bottom: 30px;
+}
+.footer-about p{
+    margin-bottom: 30px;
+    line-height: 26px;
+}
+.footer-widget{
+    margin-bottom: 30px;
+    
+}
+.footer-widget h6{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+.footer-widget ul li{
+    line-height: 36px;
+    list-style: none;
+    color: #CFCFCF;
+}
+.footer-widget ul li a{
+    font-size: 15px;
+}
+.footer-widget .footer-news p form{
+position: relative;
+margin-left: 20px;
+}
+.footer-widget .footer-news form input{
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    padding: 15px 0;
+}
+.footer-widget .footer-news form button{
+    border-radius: 8px;
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    height: 100;
+    border: none;
+    margin-right:400px;
+    width: 62px;
+height: 64px;
+}
+.footer-widget .footer-news form input::placeholder{
+    color:#A0A0A0;
+
 }
